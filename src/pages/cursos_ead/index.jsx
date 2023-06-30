@@ -25,7 +25,7 @@ export default function Tratamentos() {
           </div>
         
           <div className={styles.imageContainer}>
-            <Image src="https://imgur.com/skSoNAN.png" alt="Logo" layout="intrinsic" width={360} height={260} data-aos="fade-in"/>
+            <Image src="https://imgur.com/skSoNAN.png" alt="Logo" layout="intrinsic" width={350} height={260} data-aos="fade-in"/>
           </div>
         </div>
       </section>
