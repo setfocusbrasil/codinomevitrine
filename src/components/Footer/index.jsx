@@ -83,7 +83,7 @@ export const Footer = ({ children, link = "/" }) => {
       <p className={`${styles.copy}`}>
         2023 © QualitySeg Consultoria - Todos os direitos reservados.  <Link href="https://agenciasetfocus.vercel.app/" legacyBehavior>
                   <a target="_blank">
-                  Desenvolvido por 
+                  Desenvolvido pelo time de Desenvolvimento de Sistemas da QualitySEG Lençóis Paulista - MmSTRoK - MMS
                   </a>
                 </Link> 
       </p>
