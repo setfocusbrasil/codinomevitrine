@@ -62,46 +62,35 @@ export const Header = () => {
         </left>
         </li>
       </div>
-        <div className="mainContainer">
-          <Link href="cursos_ead" legacyBehavior>
-            <a>
-              <Image
-                src="/icons/logo_transparente.png"
-                alt="QualitySeg Cursos EAD"
-                width="323"
-                height="76"
-              />
+      <div className={`${styles.mainContainer} ${styles.logoMenuContainer}`}>
+        <Link href="cursos_ead" legacyBehavior>
+            <a className={styles.logo}>
+                <Image
+                    src="/icons/logo_transparente.png"
+                    alt="QualitySeg Cursos EAD"
+                    width="323"
+                    height="76"
+                />
             </a>
-          </Link>
-
-          <Link href="https://qualitysegconsultoria.com.br/" legacyBehavior>
-              <a className={styles.menuItem}>Home</a>
-          </Link>
-          
-
-          <button
-              className={
-              showMenu
-                  ? `${styles.btnMenuMobile} ${styles.menuOpen}`
-                  : styles.btnMenuMobile
-              }
-              onClick={() => setShowMenu(!showMenu)}
-          >
-              Menu
-              <span className={styles.iconHamburguer}></span>
-          </button>
-
-          <div className={styles.btnAgendar}>
-            <Button
-              dark
-              onClick={agendarConsulta}
-              link="https://wa.me/5514997605773"
-            >
-              <img src="/icons/whatsIcon.svg" alt="whatsapp" />
-              Fale com um Consultor
-            </Button>
-          </div>
+        </Link>
+        <div className={styles.menuContainer}>
+            <Link href="https://qualitysegconsultoria.com.br/" legacyBehavior>
+                <a className={styles.menuItem}>Home</a>
+            </Link>
         </div>
+
+        <div className={styles.btnAgendar}>
+            <Button
+                dark
+                onClick={agendarConsulta}
+                link="https://wa.me/5514997605773"
+            >
+                <img src="/icons/whatsIcon.svg" alt="whatsapp" />
+                Fale com um Consultor
+            </Button>
+        </div>
+    </div>
+
 
         
 
