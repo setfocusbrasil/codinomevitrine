@@ -19,6 +19,8 @@
 
 .imageContainer {
   flex: 0 0 auto; // do not allow the image to shrink or grow
+  padding: 2px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 600px) {
