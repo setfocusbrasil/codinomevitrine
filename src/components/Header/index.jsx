@@ -77,9 +77,7 @@ export const Header = () => {
           <Link href="https://qualitysegconsultoria.com.br/" legacyBehavior>
               <a className={styles.menuItem}>Home</a>
           </Link>
-          <Link href="cursos_ead" legacyBehavior>
-              <a className={styles.menuItem}>Catálogo de Cursos</a>
-          </Link>
+          
 
           <button
               className={
