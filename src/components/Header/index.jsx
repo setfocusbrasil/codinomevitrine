@@ -114,9 +114,9 @@ export const Header = () => {
         >
           <ul>
             <li onClick={closeMenu}>
-              <Link href="/" legacyBehavior>
-                <a>Home</a>
-              </Link>
+              <Link href="https://qualitysegconsultoria.com.br/esocial/" legacyBehavior>
+                <a className={styles.menuItem}>Home</a>
+            </Link>
             </li>
             <li onClick={agendarConsultaMenu}>
               <Link href="https://wa.me/5514997605773" legacyBehavior>
