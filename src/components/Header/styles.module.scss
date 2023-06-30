@@ -1,3 +1,4 @@
+
 .menuItem {
   padding: 1rem;
   color: white;
@@ -11,23 +12,32 @@
 }
 
 .blackBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   margin-top: -10px;
   margin-bottom: 10px;
-  height: 35px;
+  height: 44px;
   background-color: #27242A;
 }
 
+
 .social {
-        a + a {
-          margin-left: var(--s24);
-        }
-      }
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  a {
+    margin-left: var(--s24);
+  }
+}
 .header {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   width: 100%;
+  height: 164px;
   background-color: #00AC5A;
   padding: var(--s08) 0;
   z-index: 1000;
@@ -104,7 +114,7 @@
   font-size: 1rem;
   letter-spacing: 0.05rem;
   border: none;
-  color: #054561;
+  color: black;
   cursor: pointer;
 
   span {

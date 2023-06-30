@@ -68,8 +68,8 @@ export const Header = () => {
               <Image
                 src="/icons/logo_transparente.png"
                 alt="QualitySeg Cursos EAD"
-                width="353"
-                height="86"
+                width="323"
+                height="76"
               />
             </a>
           </Link>
