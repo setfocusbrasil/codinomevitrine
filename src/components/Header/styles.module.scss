@@ -1,5 +1,6 @@
 
 .menuItem {
+  display: none;
   padding: 1rem;
   color: white;
   font-weight: 700;
@@ -157,11 +158,11 @@
     display: none !important;
   }
   .btnMenuMobile {
-    display: flex;
+    display: none;
     align-items: center;
   }
 }
-@media (min-width: 981px) {
+@media (min-width: 768px) {
   .menuMobile {
     display: none;
   }
