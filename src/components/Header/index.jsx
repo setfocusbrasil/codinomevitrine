@@ -64,32 +64,31 @@ export const Header = () => {
       </div>
       <div className={`${styles.mainContainer} ${styles.logoMenuContainer}`}>
         <Link href="cursos_ead" legacyBehavior>
-            <a className={styles.logo}>
-                <Image
-                    src="/icons/logo_transparente.png"
-                    alt="QualitySeg Cursos EAD"
-                    width="323"
-                    height="76"
-                />
-            </a>
+          <a className={styles.logo}>
+            <Image
+              src="/icons/logo_transparente.png"
+              alt="QualitySeg Cursos EAD"
+              width="323"
+              height="76"
+            />
+          </a>
         </Link>
         <div className={styles.menuContainer}>
-            <Link href="https://qualitysegconsultoria.com.br/" legacyBehavior>
-                <a className={styles.menuItem}>Home</a>
-            </Link>
+          <Link href="https://qualitysegconsultoria.com.br/" legacyBehavior>
+            <a className={styles.menuItem}>Home</a>
+          </Link>
         </div>
-
         <div className={styles.btnAgendar}>
-            <Button
-                dark
-                onClick={agendarConsulta}
-                link="https://wa.me/5514997605773"
-            >
-                <img src="/icons/whatsIcon.svg" alt="whatsapp" />
-                Fale com um Consultor
-            </Button>
+          <Button
+            dark
+            onClick={agendarConsulta}
+            link="https://wa.me/5514997605773"
+          >
+            <img src="/icons/whatsIcon.svg" alt="whatsapp" />
+            Fale com um Consultor
+          </Button>
         </div>
-    </div>
+      </div>
 
 
         

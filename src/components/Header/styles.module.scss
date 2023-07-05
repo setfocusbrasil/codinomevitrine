@@ -1,16 +1,42 @@
 .logoMenuContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   @media (max-width: 768px) {
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 }
+
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    order: 2;
+  }
+}
+
+.logo {
+  @media (max-width: 768px) {
+    order: 1;
+  }
+}
+
+.menuMobile {
+  @media (max-width: 768px) {
+    order: 3;
+  }
+}
+
 .menuItem {
-  display: none;
+  display: block;
   padding: 1rem;
   color: white;
   font-weight: 700;
   text-decoration: none;
+  margin: auto;
 
   &:hover {
     color: #ddd;
@@ -18,6 +44,16 @@
   }
 }
 
+@media (max-width: 768px) {
+  .logoMenuContainer {
+    flex-direction: column;
+  }
+
+  .menuItem {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+}
 .blackBar {
   display: flex;
   justify-content: flex-end;
@@ -28,7 +64,6 @@
   background-color: #27242A;
 }
 
-
 .social {
   display: flex;
   justify-content: flex-end;
@@ -38,6 +73,7 @@
     margin-left: var(--s24);
   }
 }
+
 .header {
   position: fixed;
   top: 0;
@@ -48,7 +84,6 @@
   background-color: #00AC5A;
   padding: var(--s08) 0;
   z-index: 1000;
-  
 
   div {
     color: var(--blue-black);
@@ -131,7 +166,7 @@
 
 .iconHamburguer {
   width: 20px;
-  border-top: 2px solid var(--white);
+  border-top: 2px solid var--white;
   cursor: pointer;
 
   &::before,
