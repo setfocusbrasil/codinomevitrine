@@ -67,7 +67,8 @@ export const Header = () => {
             </left>
           </li>
         </div>
-        <div className={`${styles.mainContainer} ${styles.logoMenuContainer}`}>
+        <div className={`${styles.mainContainer} ${styles.logoMenuContainer} ${styles.centeredContainer}`}>
+
           <Link href="https://qualitysegconsultoria.com.br/" legacyBehavior>
             <a className={styles.logo}>
               <Image
