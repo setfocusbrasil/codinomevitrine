@@ -34,65 +34,63 @@ export const Header = () => {
 
   return (
     <>
-      
       <header className={styles.header}>
-      <div className={styles.blackBar}>
-        <li className={styles.social}>
-        <left>
-          <Link href="https://www.instagram.com/qualitysegconsultoria/" legacyBehavior>
-            <a target="_blank">
-              <Image
-                src="/icons/instaFooter.svg"
-                alt="Logo"
-                width="20"
-                height="20"
-              />
-            </a>
-          </Link>
-          <Link href="https://www.facebook.com/QualitySegConsultoriaa" legacyBehavior>
-            <a target="_blank">
-              <Image
-                src="/icons/faceFooter.svg"
-                alt="Logo"
-                width="20"
-                height="20"
-              />
-            </a>
-          </Link>
-        </left>
-        </li>
-      </div>
-      <div className={`${styles.mainContainer} ${styles.logoMenuContainer}`}>
-        <Link href="cursos_ead" legacyBehavior>
-          <a className={styles.logo}>
-            <Image
-              src="/icons/logo_transparente.png"
-              alt="QualitySeg Cursos EAD"
-              width="323"
-              height="76"
-            />
-          </a>
-        </Link>
-        <div className={styles.menuContainer}>
+        <div className={styles.blackBar}>
+          <li className={styles.social}>
+            <left>
+              <Link
+                href="https://www.instagram.com/qualitysegconsultoria/"
+                legacyBehavior
+              >
+                <a target="_blank">
+                  <Image
+                    src="/icons/instaFooter.svg"
+                    alt="Logo"
+                    width="20"
+                    height="20"
+                  />
+                </a>
+              </Link>
+              <Link
+                href="https://www.facebook.com/QualitySegConsultoriaa"
+                legacyBehavior
+              >
+                <a target="_blank">
+                  <Image
+                    src="/icons/faceFooter.svg"
+                    alt="Logo"
+                    width="20"
+                    height="20"
+                  />
+                </a>
+              </Link>
+            </left>
+          </li>
+        </div>
+        <div className={`${styles.mainContainer} ${styles.logoMenuContainer}`}>
           <Link href="https://qualitysegconsultoria.com.br/" legacyBehavior>
-            <a className={styles.menuItem}>Home</a>
+            <a className={styles.logo}>
+              <Image
+                src="/icons/logo_transparente.png"
+                alt="QualitySeg Cursos EAD"
+                width="323"
+                height="76"
+              />
+            </a>
           </Link>
+          <div className={styles.menuContainer}>
+            <Link
+              href="https://qualitysegconsultoria.com.br/"
+              legacyBehavior
+            >
+              <a className={styles.menuItem}>Home</a>
+            </Link>
+            <Link href="https://wa.me/5514997605773" legacyBehavior>
+              <a className={styles.menuItem}>Fale com um Consultor</a>
+            </Link>
+          </div>
+          
         </div>
-        <div className={styles.btnAgendar}>
-          <Button
-            dark
-            onClick={agendarConsulta}
-            link="https://wa.me/5514997605773"
-          >
-            <img src="/icons/whatsIcon.svg" alt="whatsapp" />
-            Fale com um Consultor
-          </Button>
-        </div>
-      </div>
-
-
-        
-
         <nav
           className={
             showMenu
@@ -102,13 +100,16 @@ export const Header = () => {
         >
           <ul>
             <li onClick={closeMenu}>
-              <Link href="https://qualitysegconsultoria.com.br/esocial/" legacyBehavior>
+              <Link
+                href="https://qualitysegconsultoria.com.br/esocial/"
+                legacyBehavior
+              >
                 <a className={styles.menuItem}>Home</a>
-            </Link>
+              </Link>
             </li>
-            <li onClick={agendarConsultaMenu}>
+            <li onClick={closeMenu}>
               <Link href="https://wa.me/5514997605773" legacyBehavior>
-                <a target="_blank">Fale com um Consultor</a>
+                <a className={styles.menuItem}>Fale com um Consultor</a>
               </Link>
             </li>
           </ul>

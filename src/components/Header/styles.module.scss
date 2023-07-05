@@ -37,6 +37,8 @@
   font-weight: 700;
   text-decoration: none;
   margin: auto;
+  margin-left: 15px;
+  
 
   &:hover {
     color: #ddd;
@@ -174,6 +176,7 @@
 
 .logo {
   margin-left: 25px;
+
 }
 
 .btnAgendar {
@@ -190,14 +193,16 @@
   }
 }
 @media (max-width: 768px) {
-  .menuMobile {
-    display: block;
-    text-align: center;
+  .menuMobile ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .menuMobile ul li a {
-    display: block;
-    padding: 0.5rem 0;
+  .menuMobile ul li {
+    margin-bottom: 25px;
   }
 }
+
+
+
 }
