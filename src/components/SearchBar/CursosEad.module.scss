@@ -309,5 +309,14 @@
     height: 15px;
   }
 }
+@media (max-width: 500px) {
+  .search-bar, .imagesContainer, .treatmentsItem, .searchContainer, .searchResultsContainer, .container, .treatments {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+
+
 
 }
