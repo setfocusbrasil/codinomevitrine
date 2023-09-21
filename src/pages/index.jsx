@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | QualitySeg Consultoria - Engenharia de Segurança e Medicina do Trabalho</title>
+        <title>Home | QualitySeg Consultoria - Cursos EAD de todas as NR´s</title>
         <meta
           name="description"
           content="QualitySeg Consultoria - Engenharia de Segurança e Medicinal do Trabalho"
