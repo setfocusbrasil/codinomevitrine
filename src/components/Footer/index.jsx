@@ -20,14 +20,14 @@ export const Footer = ({ children, link = "/" }) => {
           </Link>
         
           <div>
-            <h3>QualitySeg Lençóis Paulista - Matriz</h3>
+            <h3>HOBBY VIDEO STORE</h3>
             <ul>
               <li>(14) 3264-3737</li>
               <li>vendas1@qualitysegconsultoria.com.br</li>
               <li>Rua XV de Novembro, 127</li>
               <li>Lençóis Paulista - SP</li>
               <li className={styles.social}>
-                <Link href="https://www.instagram.com/qualitysegconsultoria/" legacyBehavior>
+                <Link href="https://www.instagram.com/hobbyvideolp/" legacyBehavior>
                   <a target="_blank">
                     <Image
                       src="/icons/instaFooter.svg"
