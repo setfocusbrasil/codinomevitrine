@@ -70,6 +70,7 @@ export const Header = () => {
         <div className={`${styles.mainContainer} ${styles.logoMenuContainer} ${styles.centeredContainer}`}>
 
 
+
           <div className={styles.menuContainer}>
             <Link
               href="https://codinomevitrine.vercel.app/cursos_ead"
@@ -77,8 +78,8 @@ export const Header = () => {
             >
               <a className={styles.menuItem}>Home</a>
             </Link>
-            <Link href="https://wa.me/5514997605773" legacyBehavior>
-              <a className={styles.menuItem}>Fale com um Consultor</a>
+            <Link href="https://wa.me/5514997374107" legacyBehavior>
+              <a className={styles.menuItem}>Fale com um Atendente</a>
             </Link>
           </div>
           
@@ -101,7 +102,7 @@ export const Header = () => {
             </li>
             <li onClick={closeMenu}>
               <Link href="https://wa.me/5514997374107" legacyBehavior>
-                <a className={styles.menuItem}>Fale com um Consultor</a>
+                <a className={styles.menuItem}>Fale com um Atendente</a>
               </Link>
             </li>
           </ul>
