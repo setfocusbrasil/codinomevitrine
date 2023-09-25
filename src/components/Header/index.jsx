@@ -73,7 +73,7 @@ export const Header = () => {
             <a className={styles.logo}>
               <Image
                 src="/icons/logo_transparente.png"
-                alt="QualitySeg Cursos EAD"
+                alt="Hobby Video Store"
                 width="323"
                 height="136"
               />
@@ -109,7 +109,7 @@ export const Header = () => {
               </Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="https://wa.me/5514997605773" legacyBehavior>
+              <Link href="https://wa.me/5514997374107" legacyBehavior>
                 <a className={styles.menuItem}>Fale com um Consultor</a>
               </Link>
             </li>
