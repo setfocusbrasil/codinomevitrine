@@ -21,7 +21,7 @@ export default function Tratamentos() {
       <section className={styles.images} >
         <div className={styles.content}>
           <div className={styles.textContainer}>
-            <Title title="QualitySEG Cursos EAD" subtitle="Qualidade é Nosso Destaque" />
+            <Title title="" subtitle="Presentes e Muito Mais" />
           </div>
         
           <div className={styles.imageContainer}>
