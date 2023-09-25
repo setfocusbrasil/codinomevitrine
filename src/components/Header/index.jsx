@@ -69,19 +69,10 @@ export const Header = () => {
         </div>
         <div className={`${styles.mainContainer} ${styles.logoMenuContainer} ${styles.centeredContainer}`}>
 
-          <Link href="https://qualitysegconsultoria.com.br/" legacyBehavior>
-            <a className={styles.logo}>
-              <Image
-                src="/icons/logo_transparente.png"
-                alt="Hobby Video Store"
-                width="323"
-                height="136"
-              />
-            </a>
-          </Link>
+
           <div className={styles.menuContainer}>
             <Link
-              href="https://qualitysegconsultoria.com.br/"
+              href="https://codinomevitrine.vercel.app/cursos_ead"
               legacyBehavior
             >
               <a className={styles.menuItem}>Home</a>

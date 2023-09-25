@@ -1,0 +1,10 @@
+          <Link href="https://codinomevitrine.vercel.app/cursos_ead" legacyBehavior>
+            <a className={styles.logo}>
+              <Image
+                src="/icons/logo_transparente.png"
+                alt="Hobby Video Store"
+                width="323"
+                height="136"
+              />
+            </a>
+          </Link>
