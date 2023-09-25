@@ -21,7 +21,7 @@ export default function Tratamentos() {
       <section className={styles.images} >
         <div className={styles.content}>
           <div className={styles.textContainer}>
-            <Title title="HOBBY VIDEO STORE" subtitle="Presentes e Muito Mais" />
+            <Title title="HOBBY VIDEO STORE" subtitle="O Presente Ideal Você Encontra Aqui" />
           </div>
         
           <div className={styles.imageContainer}>
