@@ -39,7 +39,7 @@ export const Header = () => {
           <li className={styles.social}>
             <left>
               <Link
-                href="https://www.instagram.com/qualitysegconsultoria/"
+                href="https://www.instagram.com/hobbystorelp/"
                 legacyBehavior
               >
                 <a target="_blank">
@@ -52,7 +52,7 @@ export const Header = () => {
                 </a>
               </Link>
               <Link
-                href="https://www.facebook.com/QualitySegConsultoriaa"
+                href="https://www.facebook.com/hobbyvideostore"
                 legacyBehavior
               >
                 <a target="_blank">
