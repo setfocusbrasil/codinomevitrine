@@ -144,8 +144,8 @@ const Catalogo = () => {
                   src={curso.imageSrc}
                   alt={curso.titulo}
                   className={styles.image}
-                  width={470}
-                  height={260}
+                  width={235}
+                  height={127}
                 />
               </div>
               <h3>{curso.titulo}</h3>
