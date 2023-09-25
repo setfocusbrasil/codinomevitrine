@@ -1,7 +1,7 @@
 <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/5s.webp"
-            alt="5S - Ferramentas da Qualidade - Contínuo"
+            alt=" Camisa Preta Metalixa - Black Album "
             width="410"
             height="230"
             
