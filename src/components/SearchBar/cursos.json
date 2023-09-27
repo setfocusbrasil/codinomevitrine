@@ -3,9 +3,17 @@
         "imageSrc": "/images/metalica_gg.jpeg",
         "valor": 109.90,
         "titulo": " CAMISA BANDA METALICA BLACK ALBUM ",
-        "carga_horaria": "2h",
+        "Tamanho": "P",
         "id": 1,
-        "descricao": "Descrição Camisa Black Album GG"
+        "descricao": "Descrição Camisa Black Album"
+    },
+    {
+        "imageSrc": "/images/metalica_gg.jpeg",
+        "valor": 109.90,
+        "titulo": " CAMISA BANDA METALICA BLACK ALBUM ",
+        "Tamanho": "M",
+        "id": 1,
+        "descricao": "Descrição Camisa Black Album"
     },
     {
         "imageSrc": "/images/copo.jpg",
