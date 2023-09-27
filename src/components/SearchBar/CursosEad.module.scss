@@ -131,17 +131,17 @@
 .treatments {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(5, 235px);
+  grid-template-columns: repeat(3, 235px);
   gap: 15px;
   width: 100%;
   justify-content: center; /* Adicione esta linha */
 
   @media (max-width: 1200px) {
-    grid-template-columns: repeat(4, 1fr); /* Alteração para tornar responsivo */
+    grid-template-columns: repeat(2, 1fr); /* Alteração para tornar responsivo */
   }
 
   @media (max-width: 991px) {
-    grid-template-columns: repeat(3, 1fr); /* Alteração para tornar responsivo */
+    grid-template-columns: repeat(1, 1fr); /* Alteração para tornar responsivo */
   }
 
   @media (max-width: 767px) {
